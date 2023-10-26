@@ -1,7 +1,7 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="4003060028" file="C:\Users\andre\Documents\Matlab Andre\Aligment artículo 2023\MAPA.prj" location="C:\Users\andre\Documents\Matlab Andre\Aligment artículo 2023" name="MAPA" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="4162571896" file="C:\Users\andre\Documents\Matlab Andre\Aligment artículo 2023\MAPA.prj" location="C:\Users\andre\Documents\Matlab Andre\Aligment artículo 2023" name="MAPA" target="target.mlapps" target-name="Package App">
     <param.appname>MAPA</param.appname>
-    <param.authnamewatermark>CHARRIS; HOIJEMBERG; BURDISSO</param.authnamewatermark>
+    <param.authnamewatermark>CHARRIS AND HOIJEMBERG</param.authnamewatermark>
     <param.email>andrescharris02@gmail.com</param.email>
     <param.company>CIBION</param.company>
     <param.icon>${PROJECT_ROOT}\MAPA_resources\icon_24.png</param.icon>
@@ -10,7 +10,7 @@
       <file>${PROJECT_ROOT}\MAPA_resources\icon_24.png</file>
       <file>${PROJECT_ROOT}\MAPA_resources\icon_16.png</file>
     </param.icons>
-    <param.summary>Hola mundo!!!!</param.summary>
+    <param.summary />
     <param.description />
     <param.screenshot />
     <param.version>1.0</param.version>
@@ -19,8 +19,9 @@
     <param.products.version />
     <param.platforms />
     <param.output>C:\Users\andre\Documents\Matlab Andre\Aligment artículo 2023</param.output>
-    <param.guid>f7d2de0f-7a54-49b5-bd72-7fc8fbde21f5</param.guid>
+    <param.guid>b8869241-4d84-4840-af08-74876b5cee67</param.guid>
     <unset>
+      <param.summary />
       <param.description />
       <param.screenshot />
       <param.version />
