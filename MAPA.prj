@@ -1,7 +1,7 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1659659846" file="C:\Users\andre\Documents\Matlab Andre\Aligment artículo 2023\MAPA.prj" location="C:\Users\andre\Documents\Matlab Andre\Aligment artículo 2023" name="MAPA" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="364953908" file="C:\Users\andre\Documents\Matlab Andre\Aligment artículo 2023\MAPA.prj" location="C:\Users\andre\Documents\Matlab Andre\Aligment artículo 2023" name="MAPA" target="target.mlapps" target-name="Package App">
     <param.appname>MAPA</param.appname>
-    <param.authnamewatermark>CHARRIS ANDRES AND PABLO H</param.authnamewatermark>
+    <param.authnamewatermark>CHARRIS ANDRES AND HOIJEMBERG PABLO</param.authnamewatermark>
     <param.email>andrescharris02@gmail.com</param.email>
     <param.company>CIBION</param.company>
     <param.icon>${PROJECT_ROOT}\MAPA_resources\icon_24.png</param.icon>
@@ -19,7 +19,7 @@
     <param.products.version />
     <param.platforms />
     <param.output>C:\Users\andre\Documents\Matlab Andre\Aligment artículo 2023</param.output>
-    <param.guid>27d7f3b1-ee05-49f8-8982-3fb1543f412f</param.guid>
+    <param.guid>d012e670-ab18-4172-a650-2bd719658f7c</param.guid>
     <unset>
       <param.summary />
       <param.description />
@@ -49,6 +49,7 @@
       <file>C:\Users\andre\Documents\Matlab Andre\functions\getPreviousNonZeroIndex.m</file>
       <file>C:\Users\andre\Documents\Matlab Andre\functions\hoye.m</file>
       <file>C:\Users\andre\Documents\Matlab Andre\functions\jres_tilt.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\functions\jresSymmetrize.m</file>
       <file>C:\Users\andre\Documents\Matlab Andre\functions\localMaximum.m</file>
       <file>C:\Users\andre\Documents\Matlab Andre\functions\multiColorPlot.m</file>
       <file>C:\Users\andre\Documents\Matlab Andre\functions\nameMultiplet.m</file>
