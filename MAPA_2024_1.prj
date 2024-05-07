@@ -1,0 +1,123 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2466288696" file="C:\Users\andre\Documents\Matlab Andre\Aligment artículo 2023\MAPA_2024_1.prj" location="C:\Users\andre\Documents\Matlab Andre\Aligment artículo 2023" name="MAPA_2024_1" target="target.mlapps" target-name="Package App">
+    <param.appname>MAPA_2024_1</param.appname>
+    <param.authnamewatermark>Charris Molina Andres</param.authnamewatermark>
+    <param.email>andrescharris02@gmail.com</param.email>
+    <param.company>CIBION</param.company>
+    <param.icon>${PROJECT_ROOT}\MAPA_2024_1_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\MAPA_2024_1_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\MAPA_2024_1_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\MAPA_2024_1_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\andre\Downloads\Graphical-TOC.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\andre\Documents\Matlab Andre\Aligment artículo 2023</param.output>
+    <param.guid>dce72117-d6ac-4ebe-9e76-ed3a10d32a68</param.guid>
+    <unset>
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\MAPA_2024_1.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Graphical TOC.tif</file>
+      <file>${PROJECT_ROOT}\MAPA_2024_1.fig</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\Andy Function\compare_trace_f1.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\Andy Function\corr_cov.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\Andy Function\findduplicate.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\Andy Function\nmrRead2D.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\Andy Function\QForwardtwo.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\functions\centerData.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\functions\check_multiplet_symmetry.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\functions\cross_covariance.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\functions\findClosest.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\functions\getPreviousNonZeroIndex.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\functions\hoye.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\functions\jres_tilt.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\functions\jresSymmetrize.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\functions\localMaximum.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\functions\multiColorPlot.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\functions\nameMultiplet.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\functions\nmrContourPlot.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\functions\permn.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\functions\stocsy.m</file>
+      <file>C:\Users\andre\Documents\Matlab Andre\functions\substractSameJInt.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\andre\Documents\Matlab Andre" name="Aligment artículo 2023" optional="false">C:\Users\andre\Documents\Matlab Andre\Aligment artículo 2023</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
